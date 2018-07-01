@@ -1,0 +1,39 @@
+{
+  "name": "waterline-standalone-core",
+  "version": "1.0.2",
+  "description": "Waterline setup for standalone usage",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tswayne/waterline-standalone-core.git"
+  },
+  "keywords": [
+    "waterline"
+  ],
+  "author": "Tyler Swayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tswayne/waterline-standalone-core/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/tswayne/waterline-standalone-core#readme",
+  "dependencies": {
+    "deepmerge": "^2.1.0",
+    "joi": "^13.1.2",
+    "waterline": "^0.13.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sails-mysql": "^1.0.0",
+    "sinon": "^6.0.0"
+  }
+}
