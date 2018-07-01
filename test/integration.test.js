@@ -1,7 +1,7 @@
 const { suite, test, beforeEach } = require('mocha')
 const sinon = require('sinon')
 const optsFixture = require('./support/opts')
-const waterlineCore = require('../lib/core')
+const waterlineCore = require('../')
 const { assert } = require('chai')
 
 const sandbox = sinon.createSandbox()

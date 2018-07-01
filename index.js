@@ -1,1 +1,1 @@
-module.exports = require('./lib/fast-water')
+module.exports = require('./lib/core')
