@@ -54,7 +54,9 @@ suite('core', function() {
           host: "localhost",
           password: "password",
           port: 3306,
-          user: "user"
+          user: "user",
+          inMemoryOnly: undefined,
+          dir: undefined
         }
       }
     })
