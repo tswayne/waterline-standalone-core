@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.0] - 3/19/2021
+- Added support for sails disk
+
 ## [1.1.0] - 11/18/2018
 - Added support for sails disk
 
