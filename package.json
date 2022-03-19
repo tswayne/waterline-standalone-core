@@ -27,13 +27,13 @@
   "homepage": "https://github.com/tswayne/waterline-standalone-core#readme",
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "joi": "^13.1.2",
+    "joi": "^17.6.0",
     "waterline": "^0.15.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "sails-mysql": "^1.0.0",
-    "sinon": "^6.0.0"
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "sails-mysql": "^2.0.0",
+    "sinon": "^13.0.1"
   }
 }
